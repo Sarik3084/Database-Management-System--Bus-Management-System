@@ -1,0 +1,18 @@
+<--$sql= "CREATE TABLE schedule(Schedule_id AUTO_INCREMENT  PRIMARY KEY, Route varchar(30), Bus_id INT(10), Departure ..()*&*^%, Arrival ..(*^*^*,)";  
+ if($conn->query($sql)==TRUE) { echo"Table schedule created successfully"; } else{echo "Error creating table" .$conn->eorr;
+
+$sql= "CREATE TABLE bus_details(Bus_id AUTO_INCREMENT PRIMARY KEY, Bus_type VARCHAR(30))";
+if($conn->query($sql)==TRUE) { echo"Table bus_details created successfully"; } else{echo "Error creating table" .$conn->eorr;
+
+$sql= "CREATE TABLE route_details(Route_id AUTO_INCREMENT PRIMARY KEY, Routename VARCHAR(30), Fare INT(6),Arrival *&^^^*, Departure *^((*)";
+if($conn->query($sql)==TRUE) { echo"Table route_details created successfully"; } else{echo "Error creating table" .$conn->eorr;
+
+$sql= "CREATE TABLE booking_details(Ticket_no AUTO_INCREMENT PRIMARY KEY, Name VARCHAR(30), Fare INT(6), From VARCHAR(30), Destination VARCHAR(30), Bus_id INT(10))";
+if($conn->query($sql)==TRUE) { echo"Table booking_details created successfully"; } else{echo "Error creating table" .$conn->eorr;
+                                    
+$sql= "CREATE TABLE payment_details(Payment_details AUTO_INCREMENT PRIMARY KEY, Mode VARCHAR(30), Fare INT(6))";
+if($conn->query($sql)==TRUE) { echo"Table payment_details created successfully"; } else{echo "Error creating table" .$conn->eorr;
+
+$sql= "CREATE TABLE employee_details(E_id AUTO_INCREMENT PRIMARY KEY, E_name VARCHAR(30), Level VARCHAR(30), Joining &^(*^**)";
+if($conn->query($sql)==TRUE) { echo"Table employee_details created successfully"; } else{echo "Error creating table" .$conn->eorr;
+?>-->
